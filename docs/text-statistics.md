@@ -7,3 +7,7 @@ Run `python text_stats.py notes.txt` from the repository root. The command opens
 ## Count lines
 
 Line counts use `str.splitlines()`. An empty file has zero lines; a final newline does not add an extra empty line.
+
+## Count words
+
+Words are separated by whitespace using `str.split()`. Repeated spaces and tabs do not create empty words. Punctuation remains part of each word.
