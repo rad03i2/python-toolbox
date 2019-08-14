@@ -11,3 +11,7 @@ Line counts use `str.splitlines()`. An empty file has zero lines; a final newlin
 ## Count words
 
 Words are separated by whitespace using `str.split()`. Repeated spaces and tabs do not create empty words. Punctuation remains part of each word.
+
+## Count characters
+
+Character counts use `len(text)` and include spaces and newline characters in the decoded text. This is not a byte count or a count of visual glyphs.
