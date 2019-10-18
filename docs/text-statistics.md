@@ -15,3 +15,7 @@ Words are separated by whitespace using `str.split()`. Repeated spaces and tabs 
 ## Count characters
 
 Character counts use `len(text)` and include spaces and newline characters in the decoded text. This is not a byte count or a count of visual glyphs.
+
+## Handle input errors
+
+A missing or unreadable file, or invalid UTF-8 input, produces a `Cannot read file:` message and exit status 1. Check the path, permissions, and encoding before retrying.
