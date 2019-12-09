@@ -19,3 +19,7 @@ Character counts use `len(text)` and include spaces and newline characters in th
 ## Handle input errors
 
 A missing or unreadable file, or invalid UTF-8 input, produces a `Cannot read file:` message and exit status 1. Check the path, permissions, and encoding before retrying.
+
+## Quote paths with spaces
+
+Pass a path containing spaces as one quoted argument: `python text_stats.py "sample notes.txt"`. The utility reads the source file without modifying it.
