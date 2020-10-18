@@ -15,3 +15,7 @@ Only files directly inside the selected folder are considered. Existing subdirec
 ## Handle unknown extensions
 
 An unrecognized extension, or no extension, maps to Other. Classification uses the final suffix, so `backup.tar.gz` is classified using `.gz`.
+
+## Handle existing names
+
+When a destination already exists, a numeric suffix is added before the extension, such as `notes_1.txt`. Use one sorter process at a time to avoid competing destination checks.
