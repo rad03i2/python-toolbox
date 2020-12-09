@@ -19,3 +19,7 @@ An unrecognized extension, or no extension, maps to Other. Classification uses t
 ## Handle existing names
 
 When a destination already exists, a numeric suffix is added before the extension, such as `notes_1.txt`. Use one sorter process at a time to avoid competing destination checks.
+
+## Apply the organization
+
+After reviewing the preview, omit `--dry-run` to move the files: `python tools/file_sorter.py "sample files"`. The source folder must exist and be a directory.
