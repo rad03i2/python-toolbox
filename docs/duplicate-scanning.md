@@ -11,3 +11,7 @@ Files are grouped by byte size before hashing. A size group containing only one 
 ## Hash in chunks
 
 Candidate files are read in 1 MiB chunks using SHA-256. Chunked reading keeps file-content memory use bounded while processing large files.
+
+## Read result groups
+
+Each numbered group lists files whose computed SHA-256 hashes match. Different filenames can appear in the same group, and identical filenames can contain different content.
