@@ -15,3 +15,7 @@ Candidate files are read in 1 MiB chunks using SHA-256. Chunked reading keeps fi
 ## Read result groups
 
 Each numbered group lists files whose computed SHA-256 hashes match. Different filenames can appear in the same group, and identical filenames can contain different content.
+
+## Interpret skipped files
+
+If metadata access or hashing raises an operating-system error, the scanner prints `Skipped:` with the path. Results therefore describe the readable files, not necessarily every file in the folder.
