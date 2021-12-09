@@ -19,3 +19,7 @@ Each numbered group lists files whose computed SHA-256 hashes match. Different f
 ## Interpret skipped files
 
 If metadata access or hashing raises an operating-system error, the scanner prints `Skipped:` with the path. Results therefore describe the readable files, not necessarily every file in the folder.
+
+## Review before cleanup
+
+The scanner reports paths and does not delete files. Review each group and keep the copy you need before performing any separate cleanup.
