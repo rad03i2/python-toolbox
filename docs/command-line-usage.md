@@ -7,3 +7,7 @@ The example script paths are relative to the repository root. Change to that dir
 ## Read built-in help
 
 Each command uses argparse. Add `--help` to display positional arguments and options, for example `python tools/duplicate_scanner.py --help`.
+
+## Select the Python interpreter
+
+Use a Python 3 interpreter that supports the syntax in the selected script. If `python` is unavailable on Windows but the Python launcher is installed, use `py -3` in its place.
