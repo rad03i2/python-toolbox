@@ -11,3 +11,7 @@ Each command uses argparse. Add `--help` to display positional arguments and opt
 ## Select the Python interpreter
 
 Use a Python 3 interpreter that supports the syntax in the selected script. If `python` is unavailable on Windows but the Python launcher is installed, use `py -3` in its place.
+
+## Use a separate sample directory
+
+Keep a small directory of disposable sample files for trying commands. Include an empty text file, a filename with spaces, and two files with identical contents.
