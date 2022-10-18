@@ -15,3 +15,7 @@ Use a Python 3 interpreter that supports the syntax in the selected script. If `
 ## Use a separate sample directory
 
 Keep a small directory of disposable sample files for trying commands. Include an empty text file, a filename with spaces, and two files with identical contents.
+
+## Capture read-only output
+
+Text reports can be redirected to a file: `python text_stats.py notes.txt > stats.txt`. Choose a new output path because shell redirection replaces an existing output file.
