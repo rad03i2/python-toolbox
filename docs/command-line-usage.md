@@ -19,3 +19,7 @@ Keep a small directory of disposable sample files for trying commands. Include a
 ## Capture read-only output
 
 Text reports can be redirected to a file: `python text_stats.py notes.txt > stats.txt`. Choose a new output path because shell redirection replaces an existing output file.
+
+## Check command results
+
+Read the printed output and check the exit status when composing shell workflows. In PowerShell, `$LASTEXITCODE` contains the exit code of the most recently run native command.
