@@ -1,15 +1,25 @@
 # Python Toolbox
 
-Small command-line experiments. **Status: starter project.**
+A collection of practical command-line utilities written with **Python 3** and the standard library.
 
-## Text statistics
+## Tools
 
-Count lines, whitespace-separated words, and Unicode characters in a UTF-8 file.
+| Tool | Purpose |
+|---|---|
+| `text_stats.py` | Count lines, words, and characters in a text file. |
+| `tools/file_sorter.py` | Sort files into folders by extension. |
+| `tools/duplicate_scanner.py` | Find duplicated files using size grouping and SHA-256 hashing. |
+| `tools/password_strength.py` | Estimate password strength using simple transparent rules. |
+
+## Run
 
 ```sh
 python text_stats.py notes.txt
+python tools/file_sorter.py ~/Downloads --dry-run
+python tools/duplicate_scanner.py ~/Downloads
+python tools/password_strength.py "ExamplePassword123!"
 ```
 
-Uses Python 3 and its standard library. Input files are read without modification.
+## Why this repository exists
 
-Next ideas: stdin input, JSON output, and word-frequency summaries.
+This repo demonstrates small but useful automation ideas: file handling, hashing, CLI arguments, safe dry-run modes, and readable output.
