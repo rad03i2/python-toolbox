@@ -253,3 +253,5 @@ date,weekday,day_of_year,iso_week
 2026-09-09,Wednesday,252,37
 2026-09-10,Thursday,253,37
 2026-09-11,Friday,254,37
+2026-09-12,Saturday,255,37
+2026-09-13,Sunday,256,37
