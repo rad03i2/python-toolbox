@@ -23,3 +23,8 @@ python tools/password_strength.py "ExamplePassword123!"
 ## Why this repository exists
 
 This repo demonstrates small but useful automation ideas: file handling, hashing, CLI arguments, safe dry-run modes, and readable output.
+
+## Official links
+
+- Portfolio: https://rdwan.dev
+- Project page: https://rdwan.dev/projects/03-python-toolbox.html
